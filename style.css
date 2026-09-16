@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    width: 90%;
+    max-width: 600px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    color: #6c2bd9;
+    margin-bottom: 25px;
+}
+
+.mensagem {
+    color: #333;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.botao {
+    background-color: #6c2bd9;
+    color: white;
+    border: none;
+
+    padding: 14px 25px;
+    font-size: 17px;
+    border-radius: 8px;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #4b1ca8;
+    transform: scale(1.05);
+}
